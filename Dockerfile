@@ -1,4 +1,4 @@
-FROM 1000kit/docker-base
+FROM 1000kit/base
 
 MAINTAINER 1000kit <docker@1000kit.org>
 

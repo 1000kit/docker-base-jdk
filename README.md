@@ -10,12 +10,15 @@ This repository contains JDK image that is used to build the portfolio of Docker
 
 ### Availability
 
-The `Dockerfile` is available in the `master` branch and is built in the Docker HUB as `1000kit/dockerbase-jdk:latest`.
+The `Dockerfile` is available in the `master` branch and is built in the Docker HUB as `1000kit/base-jdk:latest`.
 
 ## Build Image
 
 Take a Dockerfile and build with the default arguments:
 
 ~~~~
-$ docker build -t 1000kit/docker-base-jdk .
+$ docker build -t 1000kit/base-jdk .
 ~~~~
+
+or simply use the `build.sh` script
+
